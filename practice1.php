@@ -25,3 +25,6 @@ class Calculator
         }
     }
 }
+$calculation = new Calculator();
+//test calculate
+echo '9+7= '.$calculation->calculate(9,7,ADDITION);
